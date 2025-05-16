@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-800 text-white p-4 flex justify-between">
       <Link href="/" className="font-bold text-xl">
-        MyApp
+        S.M.Shan-e-Ali
       </Link>
 
       <div className="flex gap-4 items-center">
@@ -38,8 +38,8 @@ export default function Navbar() {
           </>
         ) : (
           <>
-            <Link href="/login">Login</Link>
-            <Link href="/signup">Sign Up</Link>
+            <Link href="/auth/login">Login</Link>
+            <Link href="/auth/signup">Sign Up</Link>
           </>
         )}
       </div>
