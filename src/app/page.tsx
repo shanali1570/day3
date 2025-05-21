@@ -14,7 +14,7 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-tr from-indigo-900 via-purple-100 to-pink-100 px-4 text-center">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-tr from-indigo-100 via-purple-100 to-pink-100 px-4 text-center">
       <h1 className="text-4xl font-bold text-blue-800 mb-4">Welcome to MyApp 🚀</h1>
       <p className="text-gray-700 max-w-md mb-6">
         Your all-in-one platform for secure, simple access. Log in to manage your
